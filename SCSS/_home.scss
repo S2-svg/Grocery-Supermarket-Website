@@ -1,0 +1,26 @@
+.home {
+  @include flex-center(row, center, center);
+  background: url(../image/banner-bg.webp) no-repeat center / cover;
+  padding: 17rem 0 10rem;
+
+  .content {
+    text-align: center;
+    width: 60rem;
+
+    h3 {
+      color: $black;
+      font-size: 3rem;
+
+      span {
+        color: $orange;
+      }
+    }
+
+    p {
+      color: $light-color;
+      font-size: 1.7rem;
+      padding: 1rem 0;
+      line-height: 1.8;
+    }
+  }
+}
